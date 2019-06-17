@@ -4,7 +4,8 @@ import styled from 'styled-components'
 import potato from './potato.gif'
 
 const Hello = styled.p`
-  background-color: pink;
+  background-color: yellow;
+  font-size: 20px;
   padding: 20px;
 `
 
