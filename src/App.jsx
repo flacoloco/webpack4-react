@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styled from 'styled-components'
+
+import potato from './potato.gif'
 
 const Hello = styled.p`
   background-color: pink;
@@ -7,7 +9,10 @@ const Hello = styled.p`
 `
 
 const App = () => (
-  <Hello>React here!</Hello>
+  <Fragment>
+    <Hello>React presents... the amazing dancing potato!</Hello>
+    <img alt="dancing potato" src={potato} />
+  </Fragment>
 )
 
 export default App
