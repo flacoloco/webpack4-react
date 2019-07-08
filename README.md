@@ -1,5 +1,5 @@
 # webpack4-react
-My bootstrap to React projects using webpack4, styled components and airbnb eslint.
+My bootstrap to React projects using webpack4, styled component, storybook and airbnb eslint.
 
 - npm i
 
